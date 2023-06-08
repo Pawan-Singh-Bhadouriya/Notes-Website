@@ -1,7 +1,115 @@
+@media screen and (max-width: 490px) {
+    .all-card-items {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .search {
+        right: 107px;
+    }
+
+    #abt {
+        right: 33px;
+        position: relative;
+    }
+
+    .subject {
+        font-size: 0.5em;
+    }
+
+    .card-item {
+        height: 5vh;
+        width: 13vw;
+    }
+
+    .card-item:hover {
+        box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20);
+    }
+
+    #disc {
+        font-size: 11px;
+        position: relative;
+        left: 22px
+    }
+
+    #math {
+        font-size: 12px;
+        position: relative;
+        right: 25px;
+    }
+
+    #pc {
+        font-size: 13px;
+        left: 27px
+    }
+
+    #sf {
+        font-size: 10px;
+    }
+
+}
+
+
 @media screen and (max-width: 610px) {
     .all-card-items {
         display: grid;
         grid-template-columns: auto auto auto;
+    }
+
+    .card-item {
+        height: 10vh;
+        width: 13vw;
+    }
+
+    .card-item:hover {
+        box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20);
+    }
+
+    #stat {
+        font-size: 11px;
+        right: 36px;
+        top: 18px;
+    }
+
+    #prob {
+        font-size: 10px;
+        left: 37px;
+    }
+
+    #and {
+        top: 0px;
+        right: 3px;
+    }
+
+    .subject {
+        font-size: 0.7em;
+    }
+
+    #sf {
+        font-size: 11px;
+        right: 8px;
+    }
+
+    #pc {
+        left: 30px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .all-card-items {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    nav {
+        position: relative;
+        right: 74px
+    }
+
+    .subject {
+        font-size: 0.7em;
     }
 
     .card-item {
@@ -41,6 +149,7 @@
         left: 30px;
     }
 }
+
 
 
 
