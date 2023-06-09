@@ -1,3 +1,54 @@
+@media screen and (max-width: 350px) { 
+     .all-card-items { 
+         display: grid; 
+         grid-template-columns: auto auto; 
+     } 
+  
+     .search { 
+         right: 107px; 
+     } 
+  
+     #abt { 
+         right: 33px; 
+         position: relative; 
+     } 
+  
+     .subject { 
+         font-size: 0.5em; 
+     } 
+  
+     .card-item { 
+         height: 5vh; 
+         width: 13vw; 
+     } 
+  
+     .card-item:hover { 
+         box-shadow: 1px 1px 20px rgb(234, 202, 20), 
+             1px 1px 40px rgb(234, 116, 20); 
+     } 
+  
+     #disc { 
+         font-size: 11px; 
+         position: relative; 
+         left: 22px 
+     } 
+  
+     #math { 
+         font-size: 12px; 
+         position: relative; 
+         right: 25px; 
+     } 
+  
+     #pc { 
+         font-size: 13px; 
+         left: 27px 
+     } 
+  
+     #sf { 
+         font-size: 10px; 
+     } 
+  
+ } 
 @media screen and (max-width: 490px) { 
      .all-card-items { 
          display: grid; 
