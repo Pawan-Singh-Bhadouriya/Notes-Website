@@ -18,7 +18,9 @@ header {
     top: 0px;
     z-index: 2;
 }
-
+nav .fas{
+    display: none;
+}
 nav ul {
     display: flex;
     justify-content: flex-start;
@@ -80,7 +82,7 @@ nav {
 }
 #close{
     color: white;
-    font-weight: 300;
+    /* font-weight: 300; */
     position: absolute;
     left: 103%;
     font-size: 34px;
