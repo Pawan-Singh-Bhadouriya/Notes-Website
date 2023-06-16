@@ -22,6 +22,26 @@ const search=()=>{
     }
 }
 
-// const submit=()=>{
-//     alert("your order have been placed");
-// }
+
+var hambburger = document.getElementById("hambburger");
+var closes = document.getElementById("close");
+var vclas=document.getElementById("v-clas");
+function openmenu(){
+    header.style.height="10vh";
+    header.style.transition="0.5s";
+    hambburger.style.display="none";
+    closes.style.display="block";
+    vclas.style.opacity="100";
+}
+function closemenu(){
+    header.style.height="2vh";
+    header.style.transition="0.5s";
+    closes.style.display="none";
+    hambburger.style.display="block"
+    vclas.style.opacity="0";
+
+    
+}
+
+
+   
