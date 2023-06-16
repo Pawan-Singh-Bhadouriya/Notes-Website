@@ -25,6 +25,7 @@
         cursor: pointer;
     }
 }
+
 @media screen and (max-width: 400px){
     .card-item{
         left: 50px;
