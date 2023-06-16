@@ -1,3 +1,30 @@
+@media screen and (max-width: 400px){
+    .card-item{
+        left: 50px;
+        width: 23vw;
+    }
+    nav ul{
+        left: 40%;
+    }
+    nav ul li{
+        margin-top: 20px;
+    }
+    #search-item{
+        margin-left: 27px;
+        position: relative;
+        width: 46vw;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        cursor: pointer;
+    }
+}
 @media screen and (max-width: 490px) {
 
     .search {
