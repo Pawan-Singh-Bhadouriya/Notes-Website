@@ -11,24 +11,30 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
-            <ul>
+            <ul id="v-clas">
                 <li><a href="notes.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-
+                <li id="abt"><a href="About.html">About</a></li>
+                <div class="search">
+                    <input type="search" id="search-item" placeholder="Search any subject's notes" onkeyup="search()">
+                    <!-- <button  class="btn" onclick="search()">Search</button> -->
+                </div>
+                
+               
             </ul>
-            <div class="search">
-                <input type="search" id="search-item" placeholder="Search any subject's notes" onkeyup="search()">
-                <!-- <button  class="btn" onclick="search()">Search</button> -->
-
+            <div id="hambburger"   onclick="openmenu()" >
+                <div id="line"></div>
+                <div id="line"></div>
+                <div id="line"></div>
             </div>
+            <div id="close" onclick="closemenu()">X</div>
         </nav>
     </header>
     <main>
         <div class="container" ,id="container">
             <div class="slider">
-                <marquee behavior="" direction="">OTHER SEMESTER NOTES WILL BE UPLOADED SOON</marquee>
+                <marquee behavior="" direction="">All the hand written notes belongs to <span>Pawan Singh Bhadouriya</span>  .OTHER SEMESTER NOTES WILL BE UPLOADED SOON</marquee>
             </div>
             <div class="card">
                 <h2 class="m-1">FIRST SEMESTER</h2>
@@ -230,7 +236,7 @@
             </div>
         </div>
         <footer class="flex-all-center">
-            <p>Copyright ALL NOTES Pawan Singh Bhadouriya&copy;</p>
+            <p>Copyright &copy; Pawan Singh Bhadouriya</p>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
