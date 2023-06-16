@@ -46,7 +46,9 @@
     #sf {
         font-size: 10px;
     }
-
+    #hambburger {
+        display: block;
+    }
     nav ul {
         flex-direction: column;
         justify-content: center;
