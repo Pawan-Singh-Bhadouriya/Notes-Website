@@ -1,4 +1,36 @@
-@media  screen and(max-width: 336px) {
+@media screen and (max-width: 322px) {
+    .card-item {
+        left: 20px;
+        width: 27vw;
+    }
+
+    nav ul {
+        left: 37%;
+    }
+
+    nav ul li {
+        margin-top: 20px;
+    }
+
+    #search-item {
+        margin-left: 27px;
+        position: relative;
+        width: 57vw;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul .fas {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        cursor: pointer;
+    }
+}
+@media  screen and (max-width: 336px) {
     .card-item{
         left: 50px;
         width: 23vw;
