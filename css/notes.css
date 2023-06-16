@@ -50,6 +50,7 @@ nav {
     align-items: center;
     position: relative;
     top: 2px;
+    right: 0%;
 }
 
 .search input {
@@ -61,11 +62,34 @@ nav {
     position: fixed
         /*relative*/
     ;
-    top: 18px
+    top: 18px;
         /*bottom: 18px*/
-    ;
+    right: 0%;
 }
-
+#hambburger{
+    position: absolute;
+    left: 102%;
+    cursor: pointer;
+    display: none;
+}
+#line{
+    width: 30px;
+    height: 4px;
+    background-color:  white;
+    margin: 4px;
+}
+#close{
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 103%;
+    font-size: 34px;
+    display: none;
+    cursor: pointer;
+}
+span{
+    color: #14EACFFF;
+}
 body {
     background-color: #262626FF;
 }
@@ -147,14 +171,15 @@ body {
 }
 
 .all-card-items {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     margin: 30px;
     position: relative;
     left: 10px;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
 
 }
 
