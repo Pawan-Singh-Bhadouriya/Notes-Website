@@ -1,15 +1,25 @@
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 490px) {
     .all-card-items {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
+    }
+
+    .search {
+        right: 107px;
+    }
+
+    #abt {
+        right: 33px;
+        position: relative;
+    }
+
+    .subject {
+        font-size: 0.5em;
     }
 
     .card-item {
-        /* height: 9vh; */
-        position: relative;
-        left: 87px;
-        /* height: 10vh; */
-        width: 18vw;
+        height: 5vh;
+        width: 13vw;
     }
 
     .card-item:hover {
@@ -37,25 +47,10 @@
     #sf {
         font-size: 10px;
     }
-    #hambburger {
-        display: block;
-    }
-    nav ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        left: 45%;
-        top: -20px;
-    }
 
-    #search-item {
-
-        width: 40vw;
-        left: 95px;
-
-    }
 }
+
+
 
     @media screen and (max-width:590px) {
         nav ul {
