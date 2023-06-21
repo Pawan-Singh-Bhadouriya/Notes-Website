@@ -146,9 +146,9 @@ body {
 }
 
 .all-card-items {
-    /* /* display: flex; */ */
+    /* /* display: flex; */
     /* flex-direction: column; */
-    align-items: center;
+    align-items:after;
     justify-content: center;
     margin: 30px;
     position: relative;
