@@ -1,3 +1,15 @@
+@media screen and (max-width:360px) {
+    nav ul {
+        left: 21%;
+    }
+
+
+    .card-item {
+        width: 23vw;
+        left: 60px;
+    }
+
+}
 @media screen and (max-width:390px) {
     #hambburger {
         bottom: 70%;
