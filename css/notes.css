@@ -68,9 +68,10 @@ nav {
 }
 #hambburger{
     position: absolute;
-    left: 102%;
+    left: 90%;
     cursor: pointer;
     display: none;
+    top: 12%;
 }
 #line{
     width: 30px;
@@ -329,4 +330,3 @@ p {
 a{
     text-decoration: none;
 }
-
