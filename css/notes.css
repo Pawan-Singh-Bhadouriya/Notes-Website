@@ -81,9 +81,9 @@ nav {
 }
 #close{
     color: white;
-    font-weight: 300;
     position: absolute;
-    left: 103%;
+    left: 86%;
+    top: 2%;
     font-size: 34px;
     display: none;
     cursor: pointer;
