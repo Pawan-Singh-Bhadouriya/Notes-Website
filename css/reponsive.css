@@ -1,37 +1,40 @@
-@media screen and (max-width:375px) {
+@media screen and (max-width:390px) {
     #hambburger {
         bottom: 70%;
         left: 105%;
     }
 
-    .all-card-items {
-        left: 3px;
-        width: 18vw;
-    }
+    /* .all-card-items {
+        left: -74px; */
+        /* width: 18vw;
+    } */
 
     nav ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 148px;
+        left: 22%;
+        top: -20%;
     }
-    #v-clas{
+
+    /* #v-clas {
         margin-top: 8px;
         left: 156px;
-    }
-    #abt{
+    } */
+
+    #abt {
         right: 3px;
     }
 
     #search-item {
-        width: 55vw;
-        left: 10%;
+        left: 21%;
+        top: 9%;
     }
 
     .card-item {
-        width: 18vw;
-        left: 188px;
+        width: 23vw;
+        left: 60px;
     }
 }
 
@@ -42,17 +45,17 @@
         grid-template-columns: auto auto;
     } */
     .all-card-items {
-        left: 3px;
+        left: 0px;
     }
 
     .search {
         right: 107px;
     }
 
-    #abt {
+    /* #abt {
         right: 33px;
         position: relative;
-    }
+    } */
 
     .subject {
         font-size: 0.5em;
@@ -61,6 +64,7 @@
     .card-item {
         /* height: 5vh; */
         width: 18vw;
+        left: 89px;
     }
 
     .card-item:hover {
@@ -90,8 +94,12 @@
     }
 
     #hambburger {
-        bottom: 70%;
-        left: 105%;
+        left: 86%;
+        top: 12%;
+    }
+
+    nav ul {
+        left: 40%;
     }
 
 }
@@ -102,7 +110,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 45%;
+        left: 27%;
         top: -20px;
     }
 
@@ -119,13 +127,12 @@
     }
 
     .all-card-items {
-        position: relative;
-        left: -134px;
+        left: 0px;
     }
 
     .card-item {
         position: relative;
-        left: 140px;
+        left: 107px;
         width: 18vw;
     }
 
@@ -188,9 +195,13 @@
         grid-template-columns: auto auto auto;
     } */
 
-    nav {
+    /* nav {
         position: relative;
         right: 74px
+    } */
+    nav ul {
+        position: relative;
+        right: 11%;
     }
 
     .subject {
@@ -199,7 +210,7 @@
 
     .card-item {
         /* height: 10vh; */
-        width: 13vw;
+        /* width: 13vw; */
     }
 
     .card-item:hover {
@@ -245,7 +256,7 @@
 
     .card-item {
         /* height: 10vh; */
-        width: 13vw;
+        /* width: 13vw; */
     }
 
     .card-item:hover {
@@ -287,10 +298,10 @@
         grid-template-columns: auto auto auto;
     } */
 
-    */ .card-item {
+    /* .card-item {
         height: 10vh;
         width: 13vw;
-    }
+    } */
 
     .card-item:hover {
         box-shadow: 1px 1px 20px rgb(234, 202, 20),
@@ -331,10 +342,10 @@
         grid-template-columns: auto auto auto;
     } */
 
-    */ .card-item {
+    /* .card-item {
         height: 10vh;
         width: 13vw;
-    }
+    } */
 
     .card-item:hover {
         box-shadow: 1px 1px 20px rgb(234, 202, 20),
@@ -372,9 +383,9 @@
 
 @media screen and (max-width: 1200px) {
 
-    .card-item {
+    /* .card-item {
         width: 13vw;
-    }
+    } */
 
     .card-item:hover {
         box-shadow: 1px 1px 20px rgb(234, 202, 20),
