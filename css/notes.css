@@ -144,7 +144,7 @@ body {
         1px 1px 40px rgb(234, 20, 106);
 }
 .card-item {
-    width: 10vw;
+/*     width: 10vw; */
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
