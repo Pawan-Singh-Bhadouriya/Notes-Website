@@ -4,7 +4,8 @@
 }
 
 :root {
-    --main-bg-color: rgb(43, 117, 255);
+/*     --main-bg-color: rgb(43, 117, 255); */
+        --main-bg-color: #181d25;
 }
 
 header {
@@ -92,7 +93,9 @@ span{
     color: #14EACFFF;
 }
 body {
-    background-color: #262626FF;
+/*     background-color: #262626FF; */
+        background-color:#0e141e;
+
 }
 
 .container {
