@@ -1,3 +1,4 @@
+// ------------------------search------------------
 const search=()=>{
     const searchbox = document.getElementById("search-item").value.toUpperCase();
     const storeitems = document.getElementById(".card")
@@ -13,21 +14,26 @@ const search=()=>{
             let text_value = match.textContentt || match.innerHTML ||match.innerText
 
             if(text_value.toUpperCase().indexOf(searchbox) >-1){
-                product[i].style.display ="";
-            }else{
-                product[i].style.display ="none";
+                product2[i].style.display =""; //pehle product2 ki jagah product tha or niche wali properties bhi nhi thi
+                // product2[i].style.width="13vw";
+                // product2[i].style.position="relative";
+                // product2[i].style.left="35%";
+                // storeitems[i].style.display="none";
 
+            }else{
+                product2[i].style.display ="none";//pehle product2 ki jagah product tha
             }
         }
     }
 }
 
-
+// ----------------hambburger----------------
 var hambburger = document.getElementById("hambburger");
 var closes = document.getElementById("close");
 var vclas=document.getElementById("v-clas");
 function openmenu(){
-    header.style.height="10vh";
+    console.log("Menu clicked")
+    header.style.height="12vh";
     header.style.transition="0.5s";
     hambburger.style.display="none";
     closes.style.display="block";
