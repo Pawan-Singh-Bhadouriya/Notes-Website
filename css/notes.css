@@ -19,7 +19,10 @@ header {
     top: 0px;
     z-index: 2;
 }
-
+.v-clas{
+    /* opacity: 0; */
+    /* display: none; */
+}
 nav ul {
     display: flex;
     justify-content: flex-start;
@@ -126,6 +129,8 @@ marquee a{
     box-shadow: 1px 1px 20px #14EACFFF,
     1px 1px 40px #14EACFFF;
     animation: anime 1s linear infinite;
+    backdrop-filter: blur(10px);
+
 }
 .all-card-items {
     /* display: flex; */
@@ -161,10 +166,17 @@ marquee a{
     /* height: 20vh; */
     /* box-shadow: 1px 1px 20px rgb(2, 230, 154),
                 1px 1px 40px rgb(2, 230, 154); */
+                transition: background 0.5s, transform 0.5s;
+    
 }
 .card-item:hover {
-    box-shadow: 1px 1px 20px rgb(234, 202, 20),
-        1px 1px 40px rgb(234, 116, 20);
+    /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+        1px 1px 40px rgb(234, 116, 20); */
+        background: #ff004f;
+        transform: translateY(-10px); 
+    transform: scale(1.2);
+    border: 2px solid #ff004f;
+
 }
 
 
@@ -229,7 +241,15 @@ h2 {
     /* background: -webkit-linear-gradient(90deg, red, black);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
+}
+h2:hover{
+    color: #ff004f;
+}
 
+/* -------------fifth-------------------- */
+#fifth{
+    box-shadow: 1px 1px 20px #5e2591,
+    1px 1px 40px #5e2591;
 }
 /* -------------------------footer--------------------------- */
 
@@ -266,7 +286,7 @@ footer {
     /*Experimentalk design*/
     color: white;
     position: relative;
-    top: 215px;
+    top: 186px;
     font-size: 20px;
     word-spacing: 8px;
     margin-top: 21px;
@@ -291,7 +311,7 @@ font-size: 44px;
 #auth{
     color: white;
     position: relative;
-    top: 250px;
+    top: 276px;
     font-size: 20px;
     word-spacing: 8px;
     margin-top: 21px;
@@ -383,6 +403,7 @@ p {
     padding: 20px;
     list-style: none;
     text-decoration: none;
+    text-align: center;
 }
 
 .flex-all-center {
