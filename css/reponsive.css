@@ -1,11 +1,14 @@
 @media screen and (max-width:360px) and (orientation: portrait) {
-    header{
+    header {
         left: -5%;
 
     }
+
     nav ul {
         left: 21%;
-        top: -18%;
+        /* top: -18%; */
+        top: -9%;
+        /* top: -8px; */
     }
 
 
@@ -16,15 +19,26 @@
 
     #search-item {
         left: 21%;
-        top: 9%;
+        /* top: 9%; */
+        top: 11%;
+        /* top: 68px; */
+    }
+    .card-item:hover {
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px);
+            transform: scale(1.2);
+            border: 2px solid #ff004f;
     }
 
 }
 
-@media screen and (max-width:390px)  {
-    header{
+@media screen and (max-width:390px) {
+    header {
         left: -5%;
     }
+
     #hambburger {
         bottom: 70%;
         left: 105%;
@@ -59,12 +73,20 @@
         top: 9%;
     }
 
-   
+
     /* experiment.card-item {
         width: 23vw;
         left: 60px;
     } */
-    
+    .card-item:hover {
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px);
+            transform: scale(1.2);
+            border: 2px solid #ff004f;
+    }
+
 }
 
 @media screen and (max-width:415px) {
@@ -76,7 +98,15 @@
         width: 23vw;
         left: 20%;
     }*/
-} 
+    .card-item:hover {
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px);
+            transform: scale(1.2);
+            border: 2px solid #ff004f;
+    }
+}
 
 @media screen and (max-width:489px) {
 
@@ -108,8 +138,12 @@
     }
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px);
+            transform: scale(1.2);
+            border: 2px solid #ff004f;
     }
 
     #disc {
@@ -163,7 +197,8 @@
     }
 
     header {
-        height: 2vh;
+        /* height: 2vh; */
+        height: 30px;
     }
 
     .all-card-items {
@@ -195,8 +230,12 @@
     }
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+        background: #ff004f;
+        transform: translateY(-10px);
+        transform: scale(1.2);
+        border: 2px solid #ff004f;
     }
 
     #stat {
@@ -254,8 +293,12 @@
     }
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px); 
+        transform: scale(1.2);
+        border: 2px solid #ff004f;
     }
 
     #stat {
@@ -300,8 +343,12 @@
     }
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px); 
+        transform: scale(1.2);
+        border: 2px solid #ff004f;
     }
 
     #stat {
@@ -344,8 +391,12 @@
     } */
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px); 
+        transform: scale(1.2);
+        border: 2px solid #ff004f;
     }
 
     #stat {
@@ -388,8 +439,12 @@
     } */
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px); 
+        transform: scale(1.2);
+        border: 2px solid #ff004f;
     }
 
     #stat {
@@ -428,8 +483,12 @@
     } */
 
     .card-item:hover {
-        box-shadow: 1px 1px 20px rgb(234, 202, 20),
-            1px 1px 40px rgb(234, 116, 20);
+        /* box-shadow: 1px 1px 20px rgb(234, 202, 20),
+            1px 1px 40px rgb(234, 116, 20); */
+            background: #ff004f;
+            transform: translateY(-10px); 
+        transform: scale(1.2);
+        border: 2px solid #ff004f;
     }
 
     #stat {
