@@ -5,25 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/pdf.css">
-    <link rel="stylesheet" href="css/notes.css">
-    <title>PC SOFTWARE NOTES</title>
+    <!-- <link rel="stylesheet" href="css/notes.css"> -->
+    <link rel="stylesheet" href="css/subjects.css">
+    <title>Finance NOTES By- Pawan</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
-            <ul>
+            <ul id="v-clas">
                 <li><a href="notes.html">Home</a></li>
                 <li><a href="About.html">About</a></li>
             </ul>
+            <div id="hambburger"   onclick="openmenu()" >
+                <div id="line"></div>
+                <div id="line"></div>
+                <div id="line"></div>
+            </div>
+            <!-- <div  >X</div> -->
+            <i class="fas fa-solid fa-xmark" id="close" onclick="closemenu()"></i>
         </nav>
     </header>
-    <main>
+    <main>  
+        <div class="info">
+            <div id="left">
+                <img src="images/PC SOFTWARE.png" alt="">
+            </div>
+            <div id="right">
+                <h1>The Overview</h1>
+               <p> The course is designed to make students understand About the computer and its generations and also about the Number System like Binary, Decimal, Octal, their conversion and many more.</p>
+            </div>
+        </div>
         <div class="box">
-    <iframe src="pdfs/Sem1/Pc software.pdf"></iframe>
-</div>
+            <a href="pdfs/Sem1/Pc software.pdf ">Click Here </a> <span>  for viewing or downloading the notes</span>
+    <!-- <iframe src="pdfs/Sem1/Yashavant Kanetkar - Let Us C-BPB Publications .pdf" frameborder="0"></iframe> -->
+    </div>
 </main>
     <footer class="flex-all-center">
-        <p>Copyright ALL NOTES &copy;</p>
+        <p>Created By Pawan Singh Bhadouriya | All rights are reserved &copy;</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="js/notes.js"></script>
 </body>
 </html>
