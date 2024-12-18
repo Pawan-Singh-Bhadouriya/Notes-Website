@@ -66,9 +66,20 @@ nav {
     position: fixed
         /*relative*/
     ;
-    top: 18px;
+    top: 8px;
         /*bottom: 18px*/
     right: 0%;
+    /*Changes made on 10 jan 2024 */
+    background-color: #0e141e;
+    outline: none;
+    border-radius: 40px; 
+    color: black;
+    border: 2px solid #0e141e;
+
+    /*changing on 17 dec 2024*/
+    padding: 1rem;;
+    background-color: white;
+    
 }
 #hambburger{
     position: absolute;
@@ -251,6 +262,12 @@ h2:hover{
     box-shadow: 1px 1px 20px #5e2591,
     1px 1px 40px #5e2591;
 }
+
+/* -------------sixth--------------------- */
+#sixth{
+    box-shadow: 1px 1px 20px #ff8214,
+    1px 1px 40px #f49200;
+}
 /* -------------------------footer--------------------------- */
 
 footer {
@@ -274,7 +291,7 @@ footer {
 }
 .abt-footer{
     position: relative;
-    top: 0%;
+    bottom: -200px;
 }
 
 #About{
